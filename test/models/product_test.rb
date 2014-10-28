@@ -58,3 +58,4 @@ test "product is not valid without a unique title" do
 	assert product.invalid?
 	assert_equal ["has already been taken"], product.errors[:title]
 end
+
