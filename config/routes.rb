@@ -20,7 +20,7 @@ end
     resources :orders
     resources :line_items
     resources :carts
-    root 'store#index', as: 'store', via: all
+    root 'store#index', as: 'store', via: :all
   end
   end  
 
@@ -79,4 +79,3 @@ end
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-end
